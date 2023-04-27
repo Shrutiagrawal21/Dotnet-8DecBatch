@@ -1,0 +1,14 @@
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.exe
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.deps.json
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.runtimeconfig.json
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.runtimeconfig.dev.json
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.dll
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\bin\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.pdb
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.csproj.AssemblyReference.cache
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.AssemblyInfoInputs.cache
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.AssemblyInfo.cs
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.csproj.CoreCompileInputs.cache
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.dll
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.pdb
+C:\Users\SMANJUAG\source\repos\Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2\obj\Debug\netcoreapp3.1\Collection Framework Assignment 5 Q2.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.exe
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.deps.json
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.runtimeconfig.json
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.runtimeconfig.dev.json
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.dll
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\bin\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.pdb
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.AssemblyInfoInputs.cache
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.AssemblyInfo.cs
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.csproj.CoreCompileInputs.cache
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.dll
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.pdb
+C:\Users\SMANJUAG\.NET\Assignment no 6 Q3,Q4,Q5\Assignment no 6 Q3,Q4,Q5\obj\Debug\netcoreapp3.1\Assignment no 6 Q3,Q4,Q5.genruntimeconfig.cache

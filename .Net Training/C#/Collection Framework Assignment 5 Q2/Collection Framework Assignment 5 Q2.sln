@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection Framework Assignment 5 Q2", "Collection Framework Assignment 5 Q2\Collection Framework Assignment 5 Q2.csproj", "{5BFA27C8-43A9-4003-9F09-3B1961F67D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BFA27C8-43A9-4003-9F09-3B1961F67D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA27C8-43A9-4003-9F09-3B1961F67D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA27C8-43A9-4003-9F09-3B1961F67D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA27C8-43A9-4003-9F09-3B1961F67D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B872C3-99B1-4E5F-8B3E-BA10C0CF89A8}
+	EndGlobalSection
+EndGlobal

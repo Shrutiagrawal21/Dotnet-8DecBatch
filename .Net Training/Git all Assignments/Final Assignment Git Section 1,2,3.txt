@@ -1,0 +1,434 @@
+Section 1
+
+
+smanjuag@LIN22004682 MINGW64 ~
+$ mkdir Assignments
+
+smanjuag@LIN22004682 MINGW64 ~
+$ cd Assignments
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments
+$ git init
+Initialized empty Git repository in C:/Users/SMANJUAG/Assignments/.git/
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ touch README.txt
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git commit -m "Initial state"
+[master (root-commit) 0a2ce74] Initial state
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git branch html-assignments
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git commit -m "state"
+[html-assignments e628ad8] state
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+)
+ create mode 100644 index.html
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+nothing to commit, working tree clean
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git commit -m "middle"
+[html-assignments 72b8c04] middle
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git commit -m "process"
+[master f10d690] process
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git commit -m "final"
+[html-assignments 6612d75] final
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git commit -m "second"
+[master 1a1ff0b] second
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git merge html-assignments
+Already up to date.
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git branch --delete html-assignments
+Deleted branch html-assignments (was 6612d75).
+
+
+
+Section 2
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git branch css-assignments
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout css-assignments
+Switched to branch 'css-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git commit -m "Assign"
+[css-assignments ad63c34] Assign
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 182 insertions(+)
+ create mode 100644 Assignment Git Q2.txt
+ create mode 100644 myapp.css
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git commit -m "Assignment"
+[css-assignments 83c545b] Assignment
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git commit -m "Process"
+[master 1458520] Process
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout css-assignments
+Switched to branch 'css-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git commit -m "first"
+[css-assignments 53714cf] first
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (css-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git merge css-assignment
+merge: css-assignment - not something we can merge
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git merge css-assignments
+Auto-merging README.txt
+CONFLICT (content): Merge conflict in README.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git branch --delete css-assignments
+error: The branch 'css-assignments' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D css-assignments'.
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git branch -D css-assignments
+Deleted branch css-assignments (was 53714cf).
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$
+
+
+Section 3
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git branch js-assignments
+fatal: a branch named 'js-assignments' already exists
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git checkout js-assignments
+error: you need to resolve your current index first
+README.txt: needs merge
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git reset --merge
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout js-assignments
+Switched to branch 'js-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git commit -m "large"
+[js-assignments 58da554] large
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+ create mode 100644 .js
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git commit -m "small"
+[js-assignments e3d6906] small
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git commit -m "medium"
+[master e3abc50] medium
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout jss-assignments
+error: pathspec 'jss-assignments' did not match any file(s) known to git
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git checkout js-assignments
+Switched to branch 'js-assignments'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git add .
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git commit -m "third"
+[js-assignments 4720805] third
+ Committer: MANJU AGRAWAL <shruti.manju-agrawal@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (js-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master)
+$ git merge js-assignments
+Auto-merging README.txt
+CONFLICT (content): Merge conflict in README.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git branch --delete js-assignments
+error: The branch 'js-assignments' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D js-assignments'.
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$ git branch -D js-assignments
+Deleted branch js-assignments (was 4720805).
+
+smanjuag@LIN22004682 MINGW64 ~/Assignments (master|MERGING)
+$
+
+

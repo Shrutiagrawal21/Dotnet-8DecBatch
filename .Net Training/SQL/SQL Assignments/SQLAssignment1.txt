@@ -1,0 +1,41 @@
+create database Assignment
+create table Customer(
+Id int primary key,
+FirstName nvarchar(40) not null,
+LastName nvarchar(40),
+City nvarchar(40),
+Country nvarchar(40),
+Phone nvarchar(20)
+);
+
+create table [Order](
+Id int primary key,
+OrderDate datetime not null,
+OrderNumber nvarchar(10),
+CustomerId int foreign key references Customer(Id),
+TotaLAmount decimal(12,2)
+);
+
+create table Product(
+Id int primary key,
+ProductName nvarchar(50),
+UntilPrice decimal(12,2),
+Package nvarchar(30),
+IsDiscontinued bit
+);
+
+create table OrderItem(
+Id int primary key,
+OrderId int foreign key references [Order](Id),
+ProductId int foreign key references Product(Id),
+UntilPrice decimal(12,2),
+Quantity int
+);
+
+
+insert into Customer values (1,'shruti','agrawal','mumbai','india','1234567890')
+select * from Customer
+
+select * from Customer where Country LIKE 'A%' or Country LIKE 'I%';
+
+select * from Customer where FirstName LIKE '__i%';
